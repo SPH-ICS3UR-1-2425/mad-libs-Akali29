@@ -20,9 +20,13 @@ public class Main{
 		int score = in.nextInt();
 		System.out.println("Give me a decimal number");
 		double decNumber = in.nextDouble();
-		System.out.println("One day, "+name+ " wrote a Mad Lib in class!");
+		
 		System.out.println("Give me a sport");
 		String sport = in.nextLine();
+        in.nextLine();		
+		System.out.println("One day, " +name+ " Was playing" +sport+ " and got crossed over ");
+		in.nextLine();
+		
 		System.out.println("Give me a place");
 		String place = in.nextLine();
 		//flush
@@ -31,9 +35,42 @@ public class Main{
 		String person2 = in.nextLine();
 		in.nextLine();
 		System.out.println("On "+dayOfWeek+","+person1+" and "+person2+" were playing "+sport+" when a seagull crashed the game and scored 15 points");
-		in.close();		
-
-
-}
-
+		in.close();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
 }
